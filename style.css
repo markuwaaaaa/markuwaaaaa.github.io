@@ -2,7 +2,7 @@ body {
     background: url('https://s11.gifyu.com/images/SGMkq.gif') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: monospace;
     display: flex;
     justify-content: center;
     align-items: center;
