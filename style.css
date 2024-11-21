@@ -18,6 +18,11 @@ body {
     color: white;
     width: 300px;
     z-index: 2;
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #828282;
+    }
 }
 
 .avatar {
@@ -28,11 +33,11 @@ body {
     border: 3px solid rgba(251, 251, 252, 0.918);
 }
 
-h1 {
+/* h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
     color: #828282;
-}
+} */
 
 .subtitle {
     margin-bottom: 3rem;
