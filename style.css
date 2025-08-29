@@ -1012,6 +1012,21 @@ body {
 }
 .boxMail .boxMail-container .card2 .card2-content .imageCute2 img{
     width: 40px;
+    opacity: 0;
+}
+.boxMail .boxMail-container .card2 .card2-content .imageCute2{
+    position: relative;
+}
+.boxMail .boxMail-container .card2 .card2-content .imageCute2::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #DB8CE5;
+    -webkit-mask: url("cute2.png") center / contain no-repeat;
+    mask: url("cute2.png") center / contain no-repeat;
+    pointer-events: none;
 }
 .boxMail .fa-xmark{
     position: fixed;
