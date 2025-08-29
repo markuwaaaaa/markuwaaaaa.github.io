@@ -632,15 +632,15 @@ body {
 
 /* Global 150% scaling */
 html, body {
-    zoom: 1.5;
+    zoom: 1.25;
 }
 
 @supports not (zoom: 1) {
     body {
-        transform: scale(1.5);
+        transform: scale(1.25);
         transform-origin: 0 0;
-        width: calc(100% / 1.5);
-        height: calc(100% / 1.5);
+        width: calc(100% / 1.25);
+        height: calc(100% / 1.25);
     }
 }
 
