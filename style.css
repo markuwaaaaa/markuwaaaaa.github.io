@@ -630,6 +630,20 @@ body {
 
 
 
+/* Global 150% scaling */
+html, body {
+    zoom: 1.5;
+}
+
+@supports not (zoom: 1) {
+    body {
+        transform: scale(1.5);
+        transform-origin: 0 0;
+        width: calc(100% / 1.5);
+        height: calc(100% / 1.5);
+    }
+}
+
 @media screen and (max-width: 658px)   {
 
     .flag__birthday .flag__left {
